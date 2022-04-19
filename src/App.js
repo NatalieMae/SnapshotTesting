@@ -1,22 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+// import pic from 'NatalieProfilePicture.jpg';
+// import { createBootstrapComponent } from 'react-bootstrap/esm/ThemeProvider';
 import './App.css';
 
 function App() {
+  const GitHubCard = '';
+  const logo = [];
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>BOOGER</h2>
+        <h1>
+          <img src={pic} alt='Portrait of Natalie sitting in a car.' />
+        </h1>
+        <h2>NatalieMae</h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Come and see all the shinnanigans I have gotten into in the last 6months!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/NatalieMae"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          GitHub Link
         </a>
       </header>
     </div>

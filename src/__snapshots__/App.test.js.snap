@@ -12,6 +12,9 @@ exports[`renders a snapshot 1`] = `
       className="App-logo"
       src="logo.svg"
     />
+    <h2>
+      BOOGER
+    </h2>
     <p>
       Edit 
       <code>
