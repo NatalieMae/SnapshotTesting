@@ -7,28 +7,29 @@ exports[`renders a snapshot 1`] = `
   <header
     className="App-header"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
+    <h1>
+      <img
+        alt="Portrait of Natalie sitting in a car."
+        src={
+          Array [
+            "/src/NatalieProfilePicture.jpg",
+          ]
+        }
+      />
+    </h1>
     <h2>
-      BOOGER
+      NatalieMae
     </h2>
     <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
+      Come and see all the shinnanigans I have gotten into in the last 6months!
     </p>
     <a
       className="App-link"
-      href="https://reactjs.org"
+      href="https://github.com/NatalieMae"
       rel="noopener noreferrer"
       target="_blank"
     >
-      Learn React
+      GitHub Link
     </a>
   </header>
 </div>

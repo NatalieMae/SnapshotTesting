@@ -1,17 +1,17 @@
 import React from 'react';
-// import pic from 'NatalieProfilePicture.jpg';
+// import GitHubCard from './GitHubCard';
 // import { createBootstrapComponent } from 'react-bootstrap/esm/ThemeProvider';
 import './App.css';
 
 function App() {
   const GitHubCard = '';
-  const logo = [];
+  const logo = ['/src/NatalieProfilePicture.jpg'];
 
   return (
     <div className="App">
       <header className="App-header">
         <h1>
-          <img src={pic} alt='Portrait of Natalie sitting in a car.' />
+          <img src={logo} alt='Portrait of Natalie sitting in a car.' />
         </h1>
         <h2>NatalieMae</h2>
         <p>
